@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Montserrat:wght@300;700&family=Orbitron:wght@400;800&family=Oswald:wght@200;700&family=Poppins:ital,wght@0,200;1,400&family=Roboto:wght@100;400&display=swap');
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Red Rose", cursive;
+  color: #EDC126;
+}
+body {
+  background-image: linear-gradient(hsla(235, 89%, 17%, 0.502), rgb(4, 10, 56, 1)),
+    url("assets/pexels-maxyne-barcel-10402282\ 1.png");
+  /* background-image: url("assets/pexels-maxyne-barcel-10402282\ 1.png"); */
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  overflow: hidden;
+ }
+.navbar{
+  display: flex;
+  margin-left: 50px;
+  margin-top: 50px;
+  /* align-items: baseline; */
+  vertical-align: top;
+  /* flex-direction: row;
+  display: inline-block;
+  width: 1vw; */
+
+}
+.list{
+  display: flex;
+  list-style: none;
+  flex-direction: row;
+  width: 900px;
+  /* justify-content: center; */
+  /* align-items: flex-start; */
+  justify-content: space-around;
+  font-size: 15px;
+  margin-top: 20px;
+  margin-left: 100px;
+}
+.button-small{
+  display: flex;
+  margin-left: 100px;
+  margin-top: 25px;
+  font-size: 20px;
+  background-color: #E6425E;
+  border: 2px solid #E6425E;
+  color: #fff;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.button-large{
+  background-color: #E6425E;
+  border: 2px solid #E6425E;
+  color: #fff;
+
+}
+/* div.hero{
+
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  position: relative;
+  height: 100%;
+  margin-top: 150px;
+  border: 2px solid #fff;
+  /* display: grid;
+  border: 2px solid #fff; */
+  /* width: 60%; */
+ /* }*/ 
+
+/* .b-logo{
+  border: 2px solid white;
+  display: flex;
+  flex-direction: row-reverse;
+} */
+
+
+.hero{
+  display: flex;
+  flex-direction: column;
+  /* border: 2px solid white; */
+  width: 60vw;
+  height: 60vh;
+  font-size: 60px;
+  font-family: "Montserrat";
+  text-align: center;
+  font-weight: 800;
+  margin-left: 300px;
+  margin-top: 100px;
+}
+.button-large{
+  display: flex;
+  display: inline;
+  width: 250px;
+  font-size: 30px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-left: 320px;
+}
+.b-logo{
+  width: 150px;
+  display: flex;
+  position: sticky;
+  margin-left: 1000px;
+  margin-top: -50px;
+}
